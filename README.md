@@ -82,7 +82,7 @@ CREATE DATABASE crime_reporting_db;
 ### 4. Configure application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/crime_reporting_db
 spring.datasource.username=root
-spring.datasource.password=your_password
+spring.datasource.password=@Sino2025
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
