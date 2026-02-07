@@ -115,7 +115,7 @@ Visit in browser: `http://localhost:8080`
 
 * Home Page: `screenshots/homepage.png`
 * Report Page: `screenshots/reportpage.png`
-* View Report Page Page: `screenshots/viewreportpage.png`
+* View Report Page: `screenshots/viewreportpage.png`
 * Admin Dashboard : `screenshots/admindashboard.png`
 
 ## Future Improvements
