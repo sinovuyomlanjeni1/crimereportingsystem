@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Crime Reports - Crime Reporting System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>View Crime Reports</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="report.html">Report Crime</a></li>
+        <li><a href="view-reports.html">View Reports</a></li>
+        <li><a href="admin.html">Admin</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div class="filter-section">
+        <label for="areaFilter">Filter by Area:</label>
+        <select id="areaFilter">
+            <option value="all">All Areas</option>
+            <option value="Johannesburg">Johannesburg</option>
+            <option value="Cape Town">Cape Town</option>
+            <option value="Durban">Durban</option>
+            <option value="Pretoria">Pretoria</option>
+            <option value="Port Elizabeth">Port Elizabeth</option>
+            <option value="Bloemfontein">Bloemfontein</option>
+        </select>
+        <button id="filterBtn" class="btn">Filter</button>
+    </div>
+
+    <div id="reportsContainer">
+        <!-- Reports will be loaded here -->
+        <div class="loading">Loading reports...</div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 Crime Reporting System - South Africa</p>
+    <p>By Sinovuyo Mlanjeni</p>
+</footer>
+
+<script src="js/report.js"></script>
+</body>
+</html>
